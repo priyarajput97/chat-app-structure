@@ -5,6 +5,15 @@
 .chat-section {
   padding: 20px; }
 
+.app-container {
+  display: flex;
+  height: 100vh; }
+  .app-container .sidenav {
+    width: 200px;
+    padding: 20px; }
+  .app-container .chat {
+    flex-grow: 1; }
+
 .profile-title {
   color: #fff; }
   .profile-title-link:visited, .profile-title-link:link {
@@ -20,10 +29,6 @@
     border-radius: 50%;
     text-align: center;
     line-height: 30px; }
-
-.sidenav {
-  height: 100vh;
-  padding: 20px; }
 
 .nav-bordered > .nav-item {
   float: left; }
