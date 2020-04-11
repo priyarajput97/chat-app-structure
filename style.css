@@ -1,5 +1,29 @@
+.header {
+  padding: 20px;
+  color: #fff; }
+
+.chat-section {
+  padding: 20px; }
+
+.profile-title {
+  color: #fff; }
+  .profile-title-link:visited, .profile-title-link:link {
+    color: #fff;
+    text-decoration: none; }
+  .profile-title-link:hover {
+    color: #84a9ac; }
+  .profile-title-avatar {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #84a9ac;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px; }
+
 .sidenav {
-  height: 100vh; }
+  height: 100vh;
+  padding: 20px; }
 
 .nav-bordered > .nav-item {
   float: left; }
@@ -45,23 +69,6 @@
 .nav-bordered.nav-stacked .nav-header {
   color: #84a9ac;
   padding-left: 34px; }
-
-.nav-bordered.nav-stacked .nav-profile {
-  color: #fff;
-  padding-top: 20px; }
-  .nav-bordered.nav-stacked .nav-profile-avatar {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: #84a9ac;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px; }
-  .nav-bordered.nav-stacked .nav-profile-link:visited, .nav-bordered.nav-stacked .nav-profile-link:link {
-    color: #fff;
-    text-decoration: none; }
-  .nav-bordered.nav-stacked .nav-profile-link:hover {
-    color: #84a9ac; }
 
 .nav-bordered.nav-stacked .nav-divider {
   height: 1px;
